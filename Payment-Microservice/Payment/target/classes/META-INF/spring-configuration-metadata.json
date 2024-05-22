@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "razorpay",
+      "type": "dev.sakshi.payment.configs.RazorpayConfig",
+      "sourceType": "dev.sakshi.payment.configs.RazorpayConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
