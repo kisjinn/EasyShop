@@ -61,12 +61,20 @@ The API Gateway service provides a single entry point for clients to access the 
 
 ### Product Service
 
-The Product Service handles all product-related operations, including managing product categories, and supports pagination, sorting, and filtering. It uses Redis caching to deliver faster results for product queries, optimizing the response time of APIs from ~500 ms to ~50 ms.
+The Product Service handles all product-related operations, including managing product categories, and supports pagination, sorting, and filtering.
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <img src="images-ss/pagination.png" alt="Pagination" style="margin: 20px; width: 49%; height: 60%;">
+  <img src="images-ss/sorting.png" alt="Sorting" style="margin: 20px; width: 49%; height: 70%;">
+</div>
+
+**It uses Redis caching to deliver faster results for product queries, optimizing the response time of APIs from ~500 ms to ~50 ms.**
+
 
 ### Service Discovery
 
 Service discovery in EASYSHOP, implemented using Netflix Eureka, ensures that microservices can dynamically locate and communicate with each other without hardcoded addresses, enabling seamless scaling and resilience.
-![micro]([images-ss/pagination 1.png))
+<img src="images-ss/spring-Eureka.png" alt="Project Screenshot" style="display: block; margin: 20px auto; width: 100%; height: auto;">
+
 
 ### Email Service
 
@@ -75,6 +83,10 @@ Implemented using Kafka, facilitates event-driven communication to send emails a
 ### Payment Service
 
 The Payment Service integrates with Razorpay and Stripe to handle user payments. This service ensures secure and efficient payment processing, providing users with multiple payment options.
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <img src="images-ss/stripe-1.png" alt="Project Screenshot" style="margin: 20px; width: 49%; height: 60%;">
+  <img src="images-ss/razorpay-1.png" alt="Project Screenshot" style="margin: 20px; width: 49%; height: 70%;">
+</div>
 
 ## Contact
 
