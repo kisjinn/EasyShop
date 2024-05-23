@@ -66,7 +66,7 @@ The Product Service handles all product-related operations, including managing p
 ### Service Discovery
 
 Service discovery in EASYSHOP, implemented using Netflix Eureka, ensures that microservices can dynamically locate and communicate with each other without hardcoded addresses, enabling seamless scaling and resilience.
-![micro]([https://user-images.githubusercontent.com/50141193/58799788-845b1c00-8606-11e9-924b-1b4c03a9091c.png](https://github.com/kisjinn/EasyShop/blob/main/images-ss/spring-Eureka.png))
+![micro]([images-ss/pagination 1.png))
 
 ### Email Service
 
